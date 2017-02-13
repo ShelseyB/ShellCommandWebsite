@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+    background: url("o-WATERFALL-facebook.jpg");
+  /*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  color: rgba(239, 9, 28, .9);
+  text-align: center;
+}
+
+h1 {
+    vertical-align: sub;
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+table {
+    font-size: 16px;
+    /*background-color: Aqua;*/
+    /*border: dotted;*/
+    display: inline;
+    vertical-align: central;
+    
+}
+
+
+
+th {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    background-color: rgba(71, 224, 219, .6);
+    
+}
+
+img:hover {
+    border: dotted;
+}
+
+p:first-of-type {
+    color: rgb(239, 224, 9);
+}
+
+a:visited {
+    color: purple;
+}
